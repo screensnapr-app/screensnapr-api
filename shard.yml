@@ -1,0 +1,21 @@
+name: screensnapr-api
+version: 0.1.0
+
+authors:
+  - Taylor Finnell <tmfinnell@gmail.com>
+
+dependencies:
+  awscr-s3:
+    github: taylorfinnell/awscr-s3
+    branch: url-options-include-port
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+
+targets:
+  screensnapr-api:
+    main: src/screensnapr-api.cr
+
+crystal: 1.4.0
+
+license: MIT
