@@ -1,6 +1,6 @@
 require "./spec_helper"
 
-describe Screensnapr::Api do
+describe ScreenSnapr::Api do
   # TODO: Write tests
 
   it "works" do
