@@ -7,7 +7,7 @@ authors:
 dependencies:
   awscr-s3:
     github: taylorfinnell/awscr-s3
-    branch: url-options-include-port
+    branch: master
   kemal:
     github: kemalcr/kemal
     branch: master
